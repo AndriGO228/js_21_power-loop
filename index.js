@@ -1,5 +1,9 @@
 function power(number, pow) {
-	// write your code here
+	let hz = 1;
+	for (let i = 0; i < pow; i++) {
+		hz *= number;
+	}
+	return hz;
 }
 
 module.exports = power;
